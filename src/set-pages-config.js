@@ -32,7 +32,7 @@ function getConfigParserSettings({ staticSiteGenerator, generatorConfigFile, sit
         blankConfigurationFile: `${__dirname}/blank-configurations/next.js`,
         properties: {
           // Configure a base path
-          basePath: path,
+          basePath: path
 
           // Disable server side image optimization too
           // https://nextjs.org/docs/api-reference/next/image#unoptimized

@@ -16595,13 +16595,13 @@ function getConfigParserSettings({ staticSiteGenerator, generatorConfigFile, sit
         blankConfigurationFile: __nccwpck_require__.ab + "next.js",
         properties: {
           // Configure a base path
-          basePath: path,
+          basePath: path
 
           // Disable server side image optimization too
           // https://nextjs.org/docs/api-reference/next/image#unoptimized
-          'experimental.images.unoptimized': true,
+          //'experimental.images.unoptimized': true,
           // No longer experimental as of Next.js v12.3.0
-          'images.unoptimized': true
+          //'images.unoptimized': true
         }
       }
     case 'gatsby':
